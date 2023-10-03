@@ -5,7 +5,7 @@ const Header = () => {
         <div>
             <img src={img} alt="" />
             <p>Journalism Without Fear or Favour</p>
-            <p>{moment().format("dddd, MMMM D, YYYY")}</p>
+            <p className='text-xl'>{moment().format("dddd, MMMM D, YYYY")}</p>
         </div>
     );
 };
